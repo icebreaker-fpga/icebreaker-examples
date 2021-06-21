@@ -7,9 +7,9 @@ set_io -nowarn USB_P      43
 set_io -nowarn USB_N      42
 set_io -nowarn USB_DET    38
 
-# RS232 - pin 0 and 1 on the bitsy1
-set_io -nowarn RX         47
-set_io -nowarn TX         44
+# RS232 - pins on the "programming connector"
+set_io -nowarn RX         18
+set_io -nowarn TX         19
 
 # LEDs and Button
 set_io -nowarn BTN_N      10
